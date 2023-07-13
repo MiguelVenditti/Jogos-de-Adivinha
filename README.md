@@ -1,2 +1,2 @@
 # Jogos-de-Adivinha
-Realizado inicialmente em acompanhamento as aulas do curso de python na alura, porem ao termino do curso, realizei melhorias!
+Realizado inicialmente para acompanhar as aulas de python realizado pela Alura! Entretanto, realizei melhorias após o termino do curso!
