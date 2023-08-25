@@ -15,14 +15,17 @@ def jogar():
 # Nivel de dificuldade
 
     while True:
-        dificuldade = input("Qual o seu nivel de habilidade?\n(1) Expert\n(2) Intermediario\n(3) Amador\nR:")
-
-        if dificuldade in ('1', '2', '3'):
-            dificuldade = int(dificuldade)
-            print("Ok!")
-            break
-        else:
-            print("Por favor, selecione uma opção válida.")
+        try:
+            dificuldade = input("Qual o seu nivel de habilidade?\n(1) Expert\n(2) Intermediario\n(3) Amador\nR:")
+    
+            if dificuldade in ('1', '2', '3'):
+                dificuldade = int(dificuldade)
+                print("Ok!")
+                break
+            else:
+                print("Por favor, selecione uma opção válida.")
+        except ValueError:
+            print("Por favor, insira um número válido.")
 
 # Validando resposta!
 
